@@ -1,11 +1,13 @@
-# ARKE
+# ARKÉ
 
-ARKE is a software layer executed under WebAssembly.
+ARKÉ is the mobile connectivity component of IAA.
 
-Its exclusive responsibility is to provide directory content through the
-defined channel. ARKE does not initiate SOL and does not compute fractal
-representations.
+It enables researchers to connect with one another or enables connections
+between people who are already present in the user's phone contacts.
 
-Any future capability beyond this boundary requires an explicit doctrine and
-contract decision.
+Connections use Reticulum or TCP together with the SOL.
+
+Its identity, consent, contact-access, discovery, and connection contracts must
+be defined explicitly before implementation. This document does not assume a
+particular mobile framework or runtime.
 
