@@ -29,6 +29,9 @@ then ascending room identifier.
 
 ## Run
 
+The verification currently runs 21 deterministic tests with Python's standard
+library only.
+
 ```bash
 components/argos/business/hotel_reservation/verify.sh
 python3 components/argos/business/hotel_reservation/generate_demo.py
