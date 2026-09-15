@@ -1,13 +1,14 @@
 # ARKÉ
 
-ARKÉ is the mobile connectivity component of IAA.
+ARKÉ is the mobile interface of IAA.
 
-It enables researchers to connect with one another or enables connections
-between people who are already present in the user's phone contacts.
+It supports communication between researchers or with people already present
+in the user's phone contacts. IRIS performs the connection using the SOL.
 
-Connections use Reticulum or TCP together with the SOL.
+Exchanges use Reticulum or TCP. LoRa is available only for text messages of at
+most 100 characters.
 
-Its identity, consent, contact-access, discovery, and connection contracts must
-be defined explicitly before implementation. This document does not assume a
-particular mobile framework or runtime.
+ARKÉ's identity, consent, contact-access, routing, and data-handling contracts
+must be defined explicitly before implementation. This document does not assume
+a particular mobile framework or runtime.
 
