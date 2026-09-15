@@ -14,10 +14,11 @@ IRIS | ARGOS | AORATOS
 integration evidence
 ```
 
-ARKÉ is the mobile connectivity component beside these boundaries. It connects
-researchers with one another or connects people already present in the user's
-phone contacts through Reticulum or TCP and the SOL. Its detailed contracts
-and data-handling rules remain to be defined before implementation.
+ARKÉ is the mobile interface. IRIS performs the connection, using the SOL,
+between researchers or with people already present in the user's phone
+contacts. Exchanges use Reticulum or TCP. LoRa is restricted to text messages
+of at most 100 characters. Detailed identity, consent, contact-access, routing,
+and data-handling contracts remain to be defined before implementation.
 
 Detailed runtime flows will be added only after their contracts are frozen.
 
