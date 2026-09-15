@@ -26,7 +26,7 @@ its unverified security claims. See [`docs/lineage/WHISPER.md`](docs/lineage/WHI
 | IRIS | Domain-agnostic kernel that initiates SOL and computes their fractal representations. |
 | ARGOS | Domain-agnostic kernel that produces facts through replaceable scientific and mathematical engines. |
 | AORATOS | Domain-agnostic infrastructure kernel; isolation, execution, storage, and security capabilities are external organs admitted by contract. |
-| ARKE | WebAssembly software layer whose exclusive responsibility is to provide directory content through the defined channel. ARKE does not initiate SOL or compute fractal representations. |
+| ARKÉ | Mobile connectivity component that connects researchers with one another or connects people already present in the user's phone contacts, through Reticulum or TCP and the SOL. |
 
 ## Founding rules
 
@@ -46,7 +46,7 @@ shared/        cross-kernel contracts and neutral types
 iris/          IRIS boundary and future implementation
 argos/         ARGOS boundary and future implementation
 aoratos/       AORATOS boundary and future implementation
-arke/          ARKE WebAssembly boundary and future implementation
+arke/          ARKÉ mobile connectivity boundary and future implementation
 organs/        replaceable organs grouped by owning contract surface
 components/    replaceable technical and business components
 integration/   conformance, scenarios, fixtures, and end-to-end validation
