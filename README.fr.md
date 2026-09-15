@@ -21,9 +21,10 @@ n’hérite pas automatiquement de ses affirmations de sécurité non vérifiée
 
 ## ARKÉ
 
-ARKÉ est le composant mobile de mise en relation. Il permet de connecter entre
-eux des chercheurs ou des personnes déjà présentes dans le répertoire
-téléphonique de l’utilisateur, via Reticulum ou TCP et le SOL.
+ARKÉ est l’interface mobile. IRIS assure la mise en relation, à partir du SOL,
+entre chercheurs ou avec des personnes présentes dans le répertoire
+téléphonique de l’utilisateur. Les échanges passent par Reticulum ou TCP.
+LoRa est réservé aux messages texte de 100 caractères maximum.
 
 ## Règles fondatrices
 
