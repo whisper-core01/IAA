@@ -32,6 +32,16 @@ its unverified security claims. See [`docs/lineage/WHISPER.md`](docs/lineage/WHI
 
 The canonical SOL definition is documented in [`docs/architecture/SOL.md`](docs/architecture/SOL.md).
 
+## Canonical deployment
+
+IAA boots NixOS from a USB key containing a LUKS-encrypted partition. IRIS,
+ARGOS, and AORATOS are independently instantiable: each executes in a separate
+WebAssembly environment and sandbox. IRIS activates ARGOS and AORATOS instances;
+ARGOS owns business execution, while AORATOS remains limited to data security.
+
+The current Python reference path does not implement or prove this deployment.
+See [`docs/architecture/DEPLOYMENT.md`](docs/architecture/DEPLOYMENT.md).
+
 ## Founding rules
 
 - Doctrine precedes implementation.

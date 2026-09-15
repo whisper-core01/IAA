@@ -14,23 +14,14 @@ IRIS | ARGOS | AORATOS
 integration evidence
 ```
 
-ARKÉ is the mobile interface for communication between researchers or with
-people already present in the user's phone contacts. IRIS performs the
-matching. Every external ingress and egress crosses a SOL, the internal
-anchoring organ that normalizes, validates, encapsulates, and publishes flows.
-Exchanges use Reticulum or TCP. LoRa is restricted to text messages of at most
-100 characters.
+ARKÉ is the mobile connectivity component beside these boundaries. It connects
+researchers with one another or connects people already present in the user's
+phone contacts through Reticulum or TCP and the SOL. Its detailed contracts
+and data-handling rules remain to be defined before implementation.
 
-```text
-mobile peer
-  <-> ARKÉ (Reticulum | TCP | LoRa text <= 100 characters)
-  <-> SOL (canonical ingress / egress)
-  <-> IRIS (matching)
-```
-
-See [`SOL.md`](SOL.md) for the canonical SOL definition. Detailed identity,
-consent, contact-access, routing, and data-handling contracts remain to be
-defined before implementation.
+The canonical host and isolation topology is frozen in
+[`DEPLOYMENT.md`](DEPLOYMENT.md): NixOS boots from a USB key containing a LUKS
+partition, and IRIS, ARGOS, and AORATOS each run in a separate, independently
+instantiable WASM sandbox.
 
 Detailed runtime flows will be added only after their contracts are frozen.
-

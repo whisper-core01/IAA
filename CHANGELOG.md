@@ -4,6 +4,10 @@ All notable changes to IAA will be documented here.
 
 ## Unreleased
 
+- Documented the canonical NixOS-on-USB deployment with a LUKS partition and
+  three independently instantiable WASM sandboxes, one each for IRIS, ARGOS,
+  and AORATOS. The Python reference path is explicitly not evidence that this
+  deployment is implemented.
 - Added an IRIS reference launcher that activates ARGOS and AORATOS
   independently for canonical fixture scenarios. ARGOS alone admits and
   executes business logic; AORATOS remains restricted to data security.

@@ -11,6 +11,8 @@ not evidence that any threat is currently mitigated.
 - kernel semantic stability;
 - organ admission decisions;
 - isolation boundaries;
+- LUKS partition configuration and key material;
+- separation of the three WASM sandbox instances;
 - provenance of components and evidence;
 - mobile contact data and connection metadata handled by ARKÉ;
 - confidentiality, integrity, and availability of future payloads and metadata.
@@ -19,6 +21,8 @@ not evidence that any threat is currently mitigated.
 
 - a malicious or compromised organ;
 - a compromised host or execution environment;
+- theft or loss of the NixOS USB key;
+- a sandbox escape or cross-instance compromise;
 - colluding network participants;
 - a dependency or supply-chain attacker;
 - an observer correlating timing, volume, identity, or topology;
@@ -32,6 +36,7 @@ IAA currently provides no demonstrated:
 - secure deletion or protected persistence;
 - network-path independence or Sybil resistance;
 - sandbox escape resistance;
+- correctness of the unpublished NixOS, LUKS, WASM, or sandbox deployment;
 - protection from a compromised host;
 - formal proof of any runtime property.
 
@@ -40,4 +45,3 @@ IAA currently provides no demonstrated:
 A claim must name its scope, adversary, assumptions, test method, result,
 failure threshold, and reproducible artifact. A design intention, diagram, unit
 test, or successful demonstration is not by itself a security proof.
-

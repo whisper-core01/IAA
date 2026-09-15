@@ -27,6 +27,17 @@ métier ni dans son chargement.
 Le chemin exécutable actuel accepte uniquement des scénarios déjà canoniques :
 la normalisation exécutable par SOL n’est pas encore implémentée.
 
+## Déploiement canonique
+
+IAA démarre sous **NixOS depuis une clé USB** comportant une **partition
+chiffrée LUKS**. IRIS, ARGOS et AORATOS sont instanciables indépendamment :
+chacun s’exécute dans son propre environnement WebAssembly et sa propre
+sandbox. Une instance WASM commune aux trois noyaux n’est pas conforme.
+
+Le démonstrateur Python public valide seulement les responsabilités et l’ordre
+d’activation. Il ne reproduit pas encore le déploiement NixOS, USB, LUKS, WASM
+et sandbox. Voir [`docs/architecture/DEPLOYMENT.md`](docs/architecture/DEPLOYMENT.md).
+
 ## ARKÉ
 
 ARKÉ est l’interface mobile permettant les échanges entre chercheurs ou avec

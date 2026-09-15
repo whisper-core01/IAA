@@ -13,4 +13,8 @@ activates ARGOS and AORATOS, then submits one already-canonical business
 scenario to ARGOS. It reports that executable SOL normalization and AORATOS
 data-security capabilities are not implemented.
 
+In the canonical deployment, the IRIS instance runs in its own WASM sandbox and
+activates separately sandboxed ARGOS and AORATOS instances. The Python launcher
+does not yet reproduce these process and isolation boundaries.
+
 IRIS must not absorb business logic or a concrete organ implementation.

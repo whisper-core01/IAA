@@ -72,4 +72,5 @@ This is a bounded, in-memory reference implementation. It does not provide a
 transactional database, distributed locking, payment processing, consent or
 GDPR retention management, encryption of personal data, or physical
 magnetic-card encoding. Passing its tests does not make it a production hotel
-or access-control system.
+or access-control system. It also runs inside the Python reference path, not the
+canonical three-instance WASM sandbox deployment.

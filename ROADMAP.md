@@ -19,6 +19,8 @@ The roadmap is ordered by evidence dependency, not by calendar promise.
 ## Phase 2 — Reference skeleton
 
 - implement the smallest kernel boundaries needed to exercise contracts;
+- publish the reproducible NixOS USB and LUKS provisioning configuration;
+- instantiate IRIS, ARGOS, and AORATOS in three separate WASM sandboxes;
 - add isolated reference organs without making them mandatory;
 - create deterministic integration scenarios;
 - publish reproducible test artifacts.
@@ -32,4 +34,3 @@ The roadmap is ordered by evidence dependency, not by calendar promise.
 
 No phase authorizes security claims that have not passed the gates in
 [`VALIDATION.md`](VALIDATION.md).
-
