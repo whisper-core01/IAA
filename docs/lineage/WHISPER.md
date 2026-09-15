@@ -8,7 +8,7 @@ and related WHISPER Remote Nerve experiments.
 
 The relationship is intentionally explicit:
 
-- Whisper remains available as an unmodified historical record;
+- Whisper is deprecated and no longer maintained; its historical content remains publicly available;
 - IAA is a distinct repository and architecture baseline;
 - concepts may be re-admitted only through IAA contracts and evidence gates;
 - no implementation, test result, security property, or compatibility claim is
