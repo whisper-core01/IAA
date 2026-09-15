@@ -14,9 +14,10 @@ IRIS | ARGOS | AORATOS
 integration evidence
 ```
 
-ARKE is a constrained WebAssembly layer beside these boundaries. It provides
-directory content through the admitted channel; it is not a fourth owner of
-kernel semantics.
+ARKÉ is the mobile connectivity component beside these boundaries. It connects
+researchers with one another or connects people already present in the user's
+phone contacts through Reticulum or TCP and the SOL. Its detailed contracts
+and data-handling rules remain to be defined before implementation.
 
 Detailed runtime flows will be added only after their contracts are frozen.
 
