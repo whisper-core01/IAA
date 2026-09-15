@@ -12,6 +12,7 @@ not evidence that any threat is currently mitigated.
 - organ admission decisions;
 - isolation boundaries;
 - provenance of components and evidence;
+- mobile contact data and connection metadata handled by ARKÉ;
 - confidentiality, integrity, and availability of future payloads and metadata.
 
 ## Adversaries to model
