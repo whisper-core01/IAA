@@ -12,8 +12,8 @@ organes et composants remplaçables autour de trois noyaux agnostiques du métie
 ## Filiation
 
 IAA succède aux recherches conservées dans
-[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper
-reste public comme origine historique. IAA repart d’une règle plus stricte :
+[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper est déprécié, n’est plus maintenu et reste public uniquement comme
+origine historique. IAA repart d’une règle plus stricte :
 aucune affirmation ne dépasse ce que le dépôt permet réellement de démontrer.
 
 IAA n’est pas un simple renommage, n’efface pas l’historique de Whisper et
