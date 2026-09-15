@@ -8,7 +8,8 @@
 | Contract | Versioned boundary defining allowed interaction and failure. |
 | SOL | Entity initiated by IRIS; its complete semantics will be frozen before implementation. |
 | Fractal representation | Representation computed by IRIS for a SOL; not a security claim by itself. |
-| ARKÉ | Mobile interface for communication between researchers or with people in the user's phone contacts. IRIS performs the connection using the SOL. Reticulum or TCP carries exchanges; LoRa is limited to text messages of at most 100 characters. |
+| SOL | Internal anchoring organ and I/O boundary that converts raw external flows to canonical Whisper flows and publishes clean external flows. |
+| ARKÉ | Mobile interface for communication between researchers or with people in the user's phone contacts. IRIS performs the matching. Every ingress and egress crosses a SOL. Reticulum or TCP carries exchanges; LoRa is limited to text messages of at most 100 characters. |
 
 Terms are defined once and reused without semantic drift.
 
