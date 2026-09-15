@@ -12,8 +12,8 @@ software organs and components around three domain-agnostic kernels.
 ## Lineage
 
 IAA is the architectural successor to the research recorded in
-[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper
-remains public as the historical origin. IAA starts from a stricter baseline:
+[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper is deprecated, no longer maintained, and remains public only as the
+historical origin. IAA starts from a stricter baseline:
 claims are limited to what the repository can currently demonstrate.
 
 IAA is not a rename of Whisper, does not erase its history, and does not inherit
