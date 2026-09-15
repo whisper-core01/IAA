@@ -19,6 +19,12 @@ aucune affirmation ne dépasse ce que le dépôt permet réellement de démontre
 IAA n’est pas un simple renommage, n’efface pas l’historique de Whisper et
 n’hérite pas automatiquement de ses affirmations de sécurité non vérifiées.
 
+## ARKÉ
+
+ARKÉ est le composant mobile de mise en relation. Il permet de connecter entre
+eux des chercheurs ou des personnes déjà présentes dans le répertoire
+téléphonique de l’utilisateur, via Reticulum ou TCP et le SOL.
+
 ## Règles fondatrices
 
 - la doctrine précède l’implémentation ;
