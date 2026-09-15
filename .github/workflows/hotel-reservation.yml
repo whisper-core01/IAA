@@ -1,6 +1,7 @@
 name: Hotel reservation business checks
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "components/argos/business/hotel_reservation/**"
