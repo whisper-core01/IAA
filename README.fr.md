@@ -21,10 +21,15 @@ n’hérite pas automatiquement de ses affirmations de sécurité non vérifiée
 
 ## ARKÉ
 
-ARKÉ est l’interface mobile. IRIS assure la mise en relation, à partir du SOL,
-entre chercheurs ou avec des personnes présentes dans le répertoire
-téléphonique de l’utilisateur. Les échanges passent par Reticulum ou TCP.
-LoRa est réservé aux messages texte de 100 caractères maximum.
+ARKÉ est l’interface mobile permettant les échanges entre chercheurs ou avec
+des personnes présentes dans le répertoire téléphonique de l’utilisateur.
+La mise en relation est assurée par IRIS. Tout flux entrant ou sortant traverse
+un Sol, organe interne d’ancrage et frontière E/S chargé de la normalisation,
+de l’encapsulation et de la publication. Les échanges passent par Reticulum ou
+TCP. LoRa est réservé aux messages texte de 100 caractères maximum.
+
+La définition canonique du Sol se trouve dans
+[`docs/architecture/SOL.md`](docs/architecture/SOL.md).
 
 ## Règles fondatrices
 
