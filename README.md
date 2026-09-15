@@ -26,7 +26,10 @@ its unverified security claims. See [`docs/lineage/WHISPER.md`](docs/lineage/WHI
 | IRIS | Domain-agnostic kernel that initiates SOL and computes their fractal representations. |
 | ARGOS | Domain-agnostic kernel that produces facts through replaceable scientific and mathematical engines. |
 | AORATOS | Domain-agnostic infrastructure kernel; isolation, execution, storage, and security capabilities are external organs admitted by contract. |
-| ARKÉ | Mobile interface for communication between researchers or with people in the user's phone contacts. IRIS performs the connection using the SOL. Exchanges use Reticulum or TCP; LoRa is limited to text messages of at most 100 characters. |
+| SOL | Internal anchoring organ and I/O boundary between raw external flows and canonical, typed, encapsulated Whisper flows. |
+| ARKÉ | Mobile interface for communication between researchers or with people in the user's phone contacts. IRIS performs the matching. Every ingress and egress crosses a SOL. Exchanges use Reticulum or TCP; LoRa is limited to text messages of at most 100 characters. |
+
+The canonical SOL definition is documented in [`docs/architecture/SOL.md`](docs/architecture/SOL.md).
 
 ## Founding rules
 
