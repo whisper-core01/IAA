@@ -2,18 +2,21 @@
 
 ## Current result
 
-The repository validates documentation structure and includes one narrowly
-scoped executable experiment: [Collatz Scan](components/argos/engines/collatz/README.md).
-Its standard-library verification runs 15 deterministic unit and CPU integration
-tests and syntax-checks the optional OpenCL source. OpenCL execution is not
-validated when a compatible GPU and driver are absent.
+The repository includes two bounded executable demonstrations:
 
-These checks validate bounded software behavior only. Collatz Scan does not
-prove the Collatz conjecture, and its results are not IAA runtime, benchmark,
-security, anonymity, cryptographic, networking, or resilience evidence.
+- Collatz Scan runs 15 deterministic software checks. These finite calculations
+  do not prove the Collatz conjecture.
+- Hotel Reservation runs deterministic rule and integration checks covering
+  independent IRIS activation of ARGOS and AORATOS, ARGOS manifest admission, contract rejection,
+  deposits, availability, cleaning exclusion, cancellations, VIP upgrades,
+  magnetic-key windows, planning output, and fictitious customer history.
 
-Historical WHISPER Remote Nerve results belong to that deprecated, unmaintained
-prototype and are not carried forward as IAA evidence.
+These checks validate only the published reference behavior. They do not
+establish a production runtime or any security, anonymity, cryptographic,
+networking, privacy, physical-access, or resilience property.
+
+Historical WHISPER results belong to that deprecated, unmaintained prototype
+and are not carried forward as IAA evidence.
 
 ## Evidence gates
 
@@ -29,4 +32,3 @@ Every future capability must pass, as applicable:
 
 Results must identify the exact commit, toolchain, configuration, dataset or
 seed, command, and raw artifact.
-

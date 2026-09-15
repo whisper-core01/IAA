@@ -1,0 +1,15 @@
+{
+  "capabilities": [
+    "hotel.reserve",
+    "hotel.cancel",
+    "hotel.planning",
+    "hotel.customer_record",
+    "restaurant.record_reservation"
+  ],
+  "component_id": "hotel-reservation",
+  "component_kind": "business",
+  "contract": "IAA.ARGOS.BUSINESS.SCENARIO.v1",
+  "entrypoint": "adapter.py",
+  "factory": "create_session",
+  "manifest_version": "IAA.ARGOS.COMPONENT.v1"
+}

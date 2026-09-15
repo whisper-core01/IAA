@@ -1,0 +1,66 @@
+{
+  "commands": [
+    {
+      "command_id": "CMD-001",
+      "operation": "hotel.reserve",
+      "payload": {
+        "arrival": "2026-09-16T15:00:00+02:00",
+        "departure": "2026-09-18T11:00:00+02:00",
+        "deposit_paid_cents": 12000,
+        "deposit_required_cents": 12000,
+        "guest_id": "DEMO-GUEST-B",
+        "requested_category": "STANDARD",
+        "reservation_id": "RES-ARGOS-1"
+      }
+    },
+    {
+      "command_id": "CMD-002",
+      "operation": "restaurant.record_reservation",
+      "payload": {
+        "duration_minutes": 120,
+        "guest_id": "DEMO-GUEST-B",
+        "party_size": 2,
+        "reservation_id": "REST-ARGOS-1",
+        "restaurant": "Restaurant démo A",
+        "start": "2026-09-17T20:00:00+02:00"
+      }
+    },
+    {
+      "command_id": "CMD-003",
+      "operation": "hotel.planning"
+    },
+    {
+      "command_id": "CMD-004",
+      "operation": "hotel.customer_record",
+      "payload": {
+        "as_of": "2026-09-15",
+        "guest_id": "DEMO-GUEST-B"
+      }
+    }
+  ],
+  "component_id": "hotel-reservation",
+  "configuration": {
+    "guests": [
+      {
+        "birth_date": "2000-11-02",
+        "display_name": "Client fictif B",
+        "guest_id": "DEMO-GUEST-B",
+        "preferred_language": "fr",
+        "vip": true
+      }
+    ],
+    "rooms": [
+      {
+        "category": "STANDARD",
+        "cleaning_minutes": 75,
+        "room_id": "101"
+      },
+      {
+        "category": "DELUXE",
+        "cleaning_minutes": 90,
+        "room_id": "201"
+      }
+    ]
+  },
+  "contract": "IAA.ARGOS.BUSINESS.SCENARIO.v1"
+}

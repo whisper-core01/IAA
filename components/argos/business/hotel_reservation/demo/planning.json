@@ -1,0 +1,74 @@
+[
+  {
+    "duration_minutes": 2640,
+    "end": "2026-09-18T11:00+02:00",
+    "kind": "RESERVATION",
+    "reservation_id": "RES-1001",
+    "room_id": "101",
+    "start": "2026-09-16T15:00+02:00"
+  },
+  {
+    "duration_minutes": 2640,
+    "end": "2026-09-18T11:00+02:00",
+    "kind": "KEY_ACTIVE",
+    "reservation_id": "RES-1001",
+    "room_id": "101",
+    "start": "2026-09-16T15:00+02:00"
+  },
+  {
+    "duration_minutes": 75,
+    "end": "2026-09-18T12:15+02:00",
+    "kind": "CLEANING",
+    "reservation_id": "RES-1001",
+    "room_id": "101",
+    "start": "2026-09-18T11:00+02:00"
+  },
+  {
+    "duration_minutes": 1320,
+    "end": "2026-09-19T10:00+02:00",
+    "kind": "RESERVATION",
+    "reservation_id": "RES-1004",
+    "room_id": "102",
+    "start": "2026-09-18T12:00+02:00"
+  },
+  {
+    "duration_minutes": 1320,
+    "end": "2026-09-19T10:00+02:00",
+    "kind": "KEY_ACTIVE",
+    "reservation_id": "RES-1004",
+    "room_id": "102",
+    "start": "2026-09-18T12:00+02:00"
+  },
+  {
+    "duration_minutes": 75,
+    "end": "2026-09-19T11:15+02:00",
+    "kind": "CLEANING",
+    "reservation_id": "RES-1004",
+    "room_id": "102",
+    "start": "2026-09-19T10:00+02:00"
+  },
+  {
+    "duration_minutes": 2640,
+    "end": "2026-09-19T11:00+02:00",
+    "kind": "RESERVATION",
+    "reservation_id": "RES-1002",
+    "room_id": "201",
+    "start": "2026-09-17T15:00+02:00"
+  },
+  {
+    "duration_minutes": 2640,
+    "end": "2026-09-19T11:00+02:00",
+    "kind": "KEY_ACTIVE",
+    "reservation_id": "RES-1002",
+    "room_id": "201",
+    "start": "2026-09-17T15:00+02:00"
+  },
+  {
+    "duration_minutes": 90,
+    "end": "2026-09-19T12:30+02:00",
+    "kind": "CLEANING",
+    "reservation_id": "RES-1002",
+    "room_id": "201",
+    "start": "2026-09-19T11:00+02:00"
+  }
+]

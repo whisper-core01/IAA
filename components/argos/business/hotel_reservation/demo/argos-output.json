@@ -1,0 +1,129 @@
+{
+  "activation_order": [
+    "IRIS",
+    "ARGOS",
+    "AORATOS"
+  ],
+  "aoratos": {
+    "business_logic": "OUT_OF_SCOPE",
+    "data_security": "NOT_IMPLEMENTED",
+    "kernel": "AORATOS",
+    "lifecycle": "ACTIVE"
+  },
+  "argos": {
+    "component_id": "hotel-reservation",
+    "contract": "IAA.ARGOS.BUSINESS.RESULT.v1",
+    "manifest_version": "IAA.ARGOS.COMPONENT.v1",
+    "results": [
+      {
+        "command_id": "CMD-001",
+        "operation": "hotel.reserve",
+        "result": {
+          "candidate_room_id": null,
+          "decision": "ACCEPTED",
+          "missing_deposit_cents": 0,
+          "reason": "RESERVATION_CONFIRMED",
+          "reservation": {
+            "arrival": "2026-09-16T15:00+02:00",
+            "assigned_category": "DELUXE",
+            "departure": "2026-09-18T11:00+02:00",
+            "deposit_cents": 12000,
+            "guest_id": "DEMO-GUEST-B",
+            "key_active_from": "2026-09-16T15:00+02:00",
+            "key_active_until": "2026-09-18T11:00+02:00",
+            "key_duration_minutes": 2640,
+            "requested_category": "STANDARD",
+            "reservation_id": "RES-ARGOS-1",
+            "room_id": "201",
+            "status": "CONFIRMED",
+            "vip_upgrade": true
+          }
+        }
+      },
+      {
+        "command_id": "CMD-002",
+        "operation": "restaurant.record_reservation",
+        "result": {
+          "decision": "ACCEPTED",
+          "reservation_id": "REST-ARGOS-1"
+        }
+      },
+      {
+        "command_id": "CMD-003",
+        "operation": "hotel.planning",
+        "result": {
+          "items": [
+            {
+              "duration_minutes": 2640,
+              "end": "2026-09-18T11:00+02:00",
+              "kind": "RESERVATION",
+              "reservation_id": "RES-ARGOS-1",
+              "room_id": "201",
+              "start": "2026-09-16T15:00+02:00"
+            },
+            {
+              "duration_minutes": 2640,
+              "end": "2026-09-18T11:00+02:00",
+              "kind": "KEY_ACTIVE",
+              "reservation_id": "RES-ARGOS-1",
+              "room_id": "201",
+              "start": "2026-09-16T15:00+02:00"
+            },
+            {
+              "duration_minutes": 90,
+              "end": "2026-09-18T12:30+02:00",
+              "kind": "CLEANING",
+              "reservation_id": "RES-ARGOS-1",
+              "room_id": "201",
+              "start": "2026-09-18T11:00+02:00"
+            }
+          ]
+        }
+      },
+      {
+        "command_id": "CMD-004",
+        "operation": "hotel.customer_record",
+        "result": {
+          "birth_date": "2000-11-02",
+          "display_name": "Client fictif B",
+          "guest_id": "DEMO-GUEST-B",
+          "hotel_history": [
+            {
+              "arrival": "2026-09-16T15:00+02:00",
+              "departure": "2026-09-18T11:00+02:00",
+              "duration_minutes": 2640,
+              "nights": 2,
+              "reservation_id": "RES-ARGOS-1",
+              "room_id": "201",
+              "status": "CONFIRMED"
+            }
+          ],
+          "hotel_reservation_count": 1,
+          "next_birthday": "2026-11-02",
+          "notes": "",
+          "preferred_language": "fr",
+          "restaurant_history": [
+            {
+              "duration_minutes": 120,
+              "end": "2026-09-17T22:00+02:00",
+              "party_size": 2,
+              "reservation_id": "REST-ARGOS-1",
+              "restaurant": "Restaurant démo A",
+              "start": "2026-09-17T20:00+02:00",
+              "status": "CONFIRMED"
+            }
+          ],
+          "restaurant_reservation_count": 1,
+          "total_confirmed_nights": 2,
+          "total_confirmed_stay_minutes": 2640,
+          "vip": true
+        }
+      }
+    ]
+  },
+  "launcher": "IRIS",
+  "sol": {
+    "input_mode": "CANONICAL_FIXTURE_ONLY",
+    "status": "NOT_IMPLEMENTED"
+  }
+}

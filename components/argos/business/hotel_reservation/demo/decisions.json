@@ -1,0 +1,72 @@
+[
+  {
+    "candidate_room_id": null,
+    "decision": "ACCEPTED",
+    "missing_deposit_cents": 0,
+    "reason": "RESERVATION_CONFIRMED",
+    "reservation": {
+      "arrival": "2026-09-16T15:00+02:00",
+      "assigned_category": "STANDARD",
+      "departure": "2026-09-18T11:00+02:00",
+      "deposit_cents": 12000,
+      "guest_id": "DEMO-GUEST-A",
+      "key_active_from": "2026-09-16T15:00+02:00",
+      "key_active_until": "2026-09-18T11:00+02:00",
+      "key_duration_minutes": 2640,
+      "requested_category": "STANDARD",
+      "reservation_id": "RES-1001",
+      "room_id": "101",
+      "status": "CONFIRMED",
+      "vip_upgrade": false
+    }
+  },
+  {
+    "candidate_room_id": null,
+    "decision": "ACCEPTED",
+    "missing_deposit_cents": 0,
+    "reason": "RESERVATION_CONFIRMED",
+    "reservation": {
+      "arrival": "2026-09-17T15:00+02:00",
+      "assigned_category": "DELUXE",
+      "departure": "2026-09-19T11:00+02:00",
+      "deposit_cents": 15000,
+      "guest_id": "DEMO-GUEST-B",
+      "key_active_from": "2026-09-17T15:00+02:00",
+      "key_active_until": "2026-09-19T11:00+02:00",
+      "key_duration_minutes": 2640,
+      "requested_category": "STANDARD",
+      "reservation_id": "RES-1002",
+      "room_id": "201",
+      "status": "CONFIRMED",
+      "vip_upgrade": true
+    }
+  },
+  {
+    "candidate_room_id": null,
+    "decision": "REJECTED",
+    "missing_deposit_cents": 0,
+    "reason": "NO_ROOM_AVAILABLE",
+    "reservation": null
+  },
+  {
+    "candidate_room_id": null,
+    "decision": "ACCEPTED",
+    "missing_deposit_cents": 0,
+    "reason": "RESERVATION_CONFIRMED",
+    "reservation": {
+      "arrival": "2026-09-18T12:00+02:00",
+      "assigned_category": "STANDARD",
+      "departure": "2026-09-19T10:00+02:00",
+      "deposit_cents": 12000,
+      "guest_id": "DEMO-GUEST-D",
+      "key_active_from": "2026-09-18T12:00+02:00",
+      "key_active_until": "2026-09-19T10:00+02:00",
+      "key_duration_minutes": 1320,
+      "requested_category": "STANDARD",
+      "reservation_id": "RES-1004",
+      "room_id": "102",
+      "status": "CONFIRMED",
+      "vip_upgrade": false
+    }
+  }
+]

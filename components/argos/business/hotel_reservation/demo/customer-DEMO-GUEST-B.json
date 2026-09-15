@@ -1,0 +1,44 @@
+{
+  "birth_date": "2000-11-02",
+  "display_name": "Client fictif B",
+  "guest_id": "DEMO-GUEST-B",
+  "hotel_history": [
+    {
+      "arrival": "2026-09-17T15:00+02:00",
+      "departure": "2026-09-19T11:00+02:00",
+      "duration_minutes": 2640,
+      "nights": 2,
+      "reservation_id": "RES-1002",
+      "room_id": "201",
+      "status": "CONFIRMED"
+    }
+  ],
+  "hotel_reservation_count": 1,
+  "next_birthday": "2026-11-02",
+  "notes": "",
+  "preferred_language": "fr",
+  "restaurant_history": [
+    {
+      "duration_minutes": 120,
+      "end": "2026-09-17T22:00+02:00",
+      "party_size": 2,
+      "reservation_id": "REST-501",
+      "restaurant": "Restaurant démo A",
+      "start": "2026-09-17T20:00+02:00",
+      "status": "CONFIRMED"
+    },
+    {
+      "duration_minutes": 90,
+      "end": "2026-09-18T14:00+02:00",
+      "party_size": 3,
+      "reservation_id": "REST-502",
+      "restaurant": "Restaurant démo B",
+      "start": "2026-09-18T12:30+02:00",
+      "status": "CONFIRMED"
+    }
+  ],
+  "restaurant_reservation_count": 2,
+  "total_confirmed_nights": 2,
+  "total_confirmed_stay_minutes": 2640,
+  "vip": true
+}

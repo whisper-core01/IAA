@@ -5,38 +5,45 @@
 IAA est une architecture expérimentale, pilotée par contrats, qui compose des
 organes et composants remplaçables autour de trois noyaux agnostiques du métier.
 
-> **État actuel : squelette d’architecture.** Ce dépôt ne contient pas encore
-> de runtime de production et ne doit pas être présenté ni déployé comme un
-> système de communication sécurisé.
+> **État actuel : squelette d’architecture avec chemins de référence bornés.**
+> Ce dépôt ne contient pas de runtime de production et ne doit pas être
+> présenté comme un système sécurisé de communication, réservation ou accès.
 
 ## Filiation
 
 IAA succède aux recherches conservées dans
-[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper est déprécié, n’est plus maintenu et reste public uniquement comme
-origine historique. IAA repart d’une règle plus stricte :
-aucune affirmation ne dépasse ce que le dépôt permet réellement de démontrer.
+[`whisper-core01/whisper`](https://github.com/whisper-core01/whisper). Whisper
+est **déprécié et n’est plus maintenu** ; il reste public uniquement comme
+origine historique. IAA n’hérite pas de ses affirmations de sécurité non
+vérifiées.
 
-IAA n’est pas un simple renommage, n’efface pas l’historique de Whisper et
-n’hérite pas automatiquement de ses affirmations de sécurité non vérifiées.
+## Activation
+
+L’utilisateur lance **IRIS**. IRIS initie SOL et active ARGOS et AORATOS
+indépendamment. ARGOS admet et exécute les logiques métier. AORATOS s’occupe
+exclusivement de la sécurité des données et n’intervient jamais dans la logique
+métier ni dans son chargement.
+
+Le chemin exécutable actuel accepte uniquement des scénarios déjà canoniques :
+la normalisation exécutable par SOL n’est pas encore implémentée.
 
 ## ARKÉ
 
 ARKÉ est l’interface mobile permettant les échanges entre chercheurs ou avec
-des personnes présentes dans le répertoire téléphonique de l’utilisateur.
-La mise en relation est assurée par IRIS. Tout flux entrant ou sortant traverse
-un Sol, organe interne d’ancrage et frontière E/S chargé de la normalisation,
-de l’encapsulation et de la publication. Les échanges passent par Reticulum ou
-TCP. LoRa est réservé aux messages texte de 100 caractères maximum.
+des personnes présentes dans le répertoire téléphonique de l’utilisateur. La
+mise en relation est assurée par IRIS. Tout flux entrant ou sortant traverse un
+SOL. Les échanges passent par Reticulum ou TCP ; LoRa est réservé aux messages
+texte de 100 caractères maximum.
 
-La définition canonique du Sol se trouve dans
-[`docs/architecture/SOL.md`](docs/architecture/SOL.md).
+## Démonstrations exécutables
 
-## Expérience ARGOS publiée
-
-[Collatz Scan](components/argos/engines/collatz/README.md) publie des scripts CPU,
-des résultats compacts et 15 contrôles logiciels déterministes. Il s’agit
-d’expériences numériques finies : **Collatz Scan ne prouve pas la conjecture de
-Collatz.**
+- [Collatz Scan](components/argos/engines/collatz/README.md) publie des calculs
+  numériques bornés et 15 contrôles. **Il ne prouve pas la conjecture de
+  Collatz.**
+- [Hotel Reservation](components/argos/business/hotel_reservation/README.md)
+  applique les règles de réservation et produit le planning des chambres,
+  nettoyages et activations de clés, ainsi qu’une fiche client fictive avec
+  historique hôtelier et restaurant.
 
 ## Règles fondatrices
 
@@ -48,5 +55,5 @@ Collatz.**
 - invariants explicites, versionnés et testables ;
 - toute affirmation de sécurité ou de résilience exige une preuve reproductible.
 
-La présentation complète et maintenue se trouve dans [`README.md`](README.md).
-
+La définition canonique du SOL se trouve dans
+[`docs/architecture/SOL.md`](docs/architecture/SOL.md).

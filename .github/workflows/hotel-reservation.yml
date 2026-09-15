@@ -1,0 +1,30 @@
+name: Hotel reservation business checks
+
+on:
+  push:
+    paths:
+      - "components/argos/business/hotel_reservation/**"
+      - "iris/runtime/reference_launcher.py"
+      - "iris/launch.sh"
+      - "argos/runtime/reference_kernel.py"
+      - "aoratos/security/reference_boundary.py"
+      - ".github/workflows/hotel-reservation.yml"
+  pull_request:
+    paths:
+      - "components/argos/business/hotel_reservation/**"
+      - "iris/runtime/reference_launcher.py"
+      - "iris/launch.sh"
+      - "argos/runtime/reference_kernel.py"
+      - "aoratos/security/reference_boundary.py"
+      - ".github/workflows/hotel-reservation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  deterministic-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test rules and generated planning
+        run: components/argos/business/hotel_reservation/verify.sh
