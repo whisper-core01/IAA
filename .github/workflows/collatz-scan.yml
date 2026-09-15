@@ -1,0 +1,23 @@
+name: Collatz Scan software checks
+
+on:
+  push:
+    paths:
+      - "components/argos/engines/collatz/**"
+      - ".github/workflows/collatz-scan.yml"
+  pull_request:
+    paths:
+      - "components/argos/engines/collatz/**"
+      - ".github/workflows/collatz-scan.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  cpu-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run bounded software checks
+        run: components/argos/engines/collatz/verify.sh
+

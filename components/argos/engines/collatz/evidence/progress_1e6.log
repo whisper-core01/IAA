@@ -1,0 +1,55 @@
+[R] n0=1 exit=1 p_stab=1 L=0 k=2 K=2 drop=False
+[L] n0=1 exit=1 p_stab=1 L=0 k=2 K=2 drop=False
+progress n0=1 elapsed=0.00s rate=7653.84 odd/s
+[R] n0=3 exit=2 p_stab=1 L=1 k=4 K=5 drop=True
+[L] n0=3 exit=2 p_stab=1 L=1 k=4 K=5 drop=True
+[R] n0=7 exit=4 p_stab=2 L=2 k=3 K=7 drop=True
+[L] n0=7 exit=4 p_stab=2 L=2 k=3 K=7 drop=True
+
+CHECKPOINT N=10
+elapsed=0.01s rate=1064.86 odd/s
+Best R: n0=7 exit=4 p_stab=2 L=2 drop=True
+Best L: n0=7 exit=4 p_stab=2 L=2 drop=True
+[R] n0=27 exit=37 p_stab=3 L=34 k=3 K=59 drop=True
+[L] n0=27 exit=37 p_stab=3 L=34 k=3 K=59 drop=True
+
+CHECKPOINT N=100
+elapsed=0.01s rate=8759.24 odd/s
+Best R: n0=27 exit=37 p_stab=3 L=34 drop=True
+Best L: n0=27 exit=37 p_stab=3 L=34 drop=True
+[R] n0=703 exit=51 p_stab=7 L=44 k=6 K=83 drop=True
+[L] n0=703 exit=51 p_stab=7 L=44 k=6 K=83 drop=True
+
+CHECKPOINT N=1000
+elapsed=0.01s rate=78829.06 odd/s
+Best R: n0=703 exit=51 p_stab=7 L=44 drop=True
+Best L: n0=703 exit=51 p_stab=7 L=44 drop=True
+
+CHECKPOINT N=10000
+elapsed=0.01s rate=456013.62 odd/s
+Best R: n0=703 exit=51 p_stab=7 L=44 drop=True
+Best L: n0=703 exit=51 p_stab=7 L=44 drop=True
+[R] n0=10087 exit=66 p_stab=11 L=55 k=6 K=108 drop=True
+[L] n0=10087 exit=66 p_stab=11 L=55 k=6 K=108 drop=True
+[R] n0=35655 exit=85 p_stab=10 L=75 k=3 K=135 drop=True
+[L] n0=35655 exit=85 p_stab=10 L=75 k=3 K=135 drop=True
+
+CHECKPOINT N=100000
+elapsed=0.06s rate=895697.01 odd/s
+Best R: n0=35655 exit=85 p_stab=10 L=75 drop=True
+Best L: n0=35655 exit=85 p_stab=10 L=75 drop=True
+progress n0=200003 elapsed=0.11s rate=948413.67 odd/s
+[R] n0=270271 exit=103 p_stab=13 L=90 k=9 K=170 drop=True
+[L] n0=270271 exit=103 p_stab=13 L=90 k=9 K=170 drop=True
+[R] n0=362343 exit=104 p_stab=14 L=90 k=3 K=166 drop=True
+[R] n0=381727 exit=109 p_stab=14 L=95 k=3 K=174 drop=True
+[L] n0=381727 exit=109 p_stab=14 L=95 k=3 K=174 drop=True
+progress n0=400005 elapsed=0.20s rate=988281.83 odd/s
+progress n0=600007 elapsed=0.30s rate=1000156.57 odd/s
+[R] n0=626331 exit=111 p_stab=16 L=95 k=3 K=176 drop=True
+progress n0=800009 elapsed=0.40s rate=1001939.43 odd/s
+
+DONE
+elapsed=0.50s rate=1004748.85 odd/s
+Final Best R: n0=626331 exit=111 p_stab=16 L=95 drop=True
+Final Best L: n0=381727 exit=109 p_stab=14 L=95 drop=True

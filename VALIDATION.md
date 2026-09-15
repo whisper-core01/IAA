@@ -2,12 +2,18 @@
 
 ## Current result
 
-The repository currently validates documentation structure only. There is no
-executable IAA implementation in this initial commit, so there are no IAA
-runtime, benchmark, security, or adversarial test results to report.
+The repository validates documentation structure and includes one narrowly
+scoped executable experiment: [Collatz Scan](components/argos/engines/collatz/README.md).
+Its standard-library verification runs 15 deterministic unit and CPU integration
+tests and syntax-checks the optional OpenCL source. OpenCL execution is not
+validated when a compatible GPU and driver are absent.
 
-Historical WHISPER Remote Nerve results belong to that prototype and are not
-carried forward as IAA evidence.
+These checks validate bounded software behavior only. Collatz Scan does not
+prove the Collatz conjecture, and its results are not IAA runtime, benchmark,
+security, anonymity, cryptographic, networking, or resilience evidence.
+
+Historical WHISPER Remote Nerve results belong to that deprecated, unmaintained
+prototype and are not carried forward as IAA evidence.
 
 ## Evidence gates
 

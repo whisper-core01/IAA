@@ -1,0 +1,58 @@
+=== CHAMPION ANALYSIS ===
+n0 = 2788008987
+exit_depth = 282
+p_stab = 22
+L = 260
+exit_k = 3
+K_exit = 447
+K/p = 1.5851063829787233
+log2(3) = 1.584962500721156
+delta = 0.0001438822575672294
+before_exit = 7228508093
+after_exit = 2710690535
+drop_under_n0 = True
+max_orbit = 27295923058577
+max_orbit_position = 209
+
+=== k DISTRIBUTION ===
+k=1: 179
+k=2: 64
+k=3: 21
+k=4: 13
+k=5: 5
+
+=== positions k >= 3 ===
+17,40,46,60,71,80,85,89,99,100,102,105,123,127,128,130,138,146,151,163,170,173,174,198,211,216,226,230,236,237,241,249,250,264,269,273,278,279,282
+
+=== positions k >= 4 ===
+40,46,71,85,89,100,123,130,138,146,170,173,216,249,264,269,273,278
+
+=== positions k >= 6 ===
+
+
+=== last 25 steps ===
+p=258 k= 1 K=401 K/p=1.554264 before=450254816639 after=675382224959 exit=False
+p=259 k= 1 K=402 K/p=1.552124 before=675382224959 after=1013073337439 exit=False
+p=260 k= 1 K=403 K/p=1.550000 before=1013073337439 after=1519610006159 exit=False
+p=261 k= 1 K=404 K/p=1.547893 before=1519610006159 after=2279415009239 exit=False
+p=262 k= 1 K=405 K/p=1.545802 before=2279415009239 after=3419122513859 exit=False
+p=263 k= 1 K=406 K/p=1.543726 before=3419122513859 after=5128683770789 exit=False
+p=264 k= 4 K=410 K/p=1.553030 before=5128683770789 after=961628207023 exit=False
+p=265 k= 1 K=411 K/p=1.550943 before=961628207023 after=1442442310535 exit=False
+p=266 k= 1 K=412 K/p=1.548872 before=1442442310535 after=2163663465803 exit=False
+p=267 k= 1 K=413 K/p=1.546816 before=2163663465803 after=3245495198705 exit=False
+p=268 k= 2 K=415 K/p=1.548507 before=3245495198705 after=2434121399029 exit=False
+p=269 k= 5 K=420 K/p=1.561338 before=2434121399029 after=228198881159 exit=False
+p=270 k= 1 K=421 K/p=1.559259 before=228198881159 after=342298321739 exit=False
+p=271 k= 1 K=422 K/p=1.557196 before=342298321739 after=513447482609 exit=False
+p=272 k= 2 K=424 K/p=1.558824 before=513447482609 after=385085611957 exit=False
+p=273 k= 5 K=429 K/p=1.571429 before=385085611957 after=36101776121 exit=False
+p=274 k= 2 K=431 K/p=1.572993 before=36101776121 after=27076332091 exit=False
+p=275 k= 1 K=432 K/p=1.570909 before=27076332091 after=40614498137 exit=False
+p=276 k= 2 K=434 K/p=1.572464 before=40614498137 after=30460873603 exit=False
+p=277 k= 1 K=435 K/p=1.570397 before=30460873603 after=45691310405 exit=False
+p=278 k= 4 K=439 K/p=1.579137 before=45691310405 after=8567120701 exit=False
+p=279 k= 3 K=442 K/p=1.584229 before=8567120701 after=3212670263 exit=False
+p=280 k= 1 K=443 K/p=1.582143 before=3212670263 after=4819005395 exit=False
+p=281 k= 1 K=444 K/p=1.580071 before=4819005395 after=7228508093 exit=False
+p=282 k= 3 K=447 K/p=1.585106 before=7228508093 after=2710690535 exit=True

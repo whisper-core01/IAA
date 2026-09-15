@@ -57,7 +57,12 @@ integration/   conformance, scenarios, fixtures, and end-to-end validation
 
 ## Evidence status
 
-The initial commit validates only repository structure and doctrine coherence.
+Repository structure and doctrine coherence remain the only IAA-wide evidence.
+[Collatz Scan](components/argos/engines/collatz/README.md) adds a narrowly scoped,
+executable ARGOS experiment with 15 deterministic software checks. It does
+**not** prove the Collatz conjecture and is not evidence for any IAA security
+property.
+
 No executable security, anonymity, cryptographic, networking, or resilience
 claim is made. The evidence gates are defined in [`VALIDATION.md`](VALIDATION.md)
 and the initial risk boundary in [`THREAT_MODEL.md`](THREAT_MODEL.md).

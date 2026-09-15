@@ -1,0 +1,6 @@
+=== SCAN 1E10 TOPK ===
+N_MAX=10000000000
+workers=11
+TOP_K=100000
+K_LEVELS=[100, 300, 1000, 3000, 10000, 30000, 100000]
+OUT_CSV=../results/topk_bands.csv

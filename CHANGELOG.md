@@ -4,6 +4,9 @@ All notable changes to IAA will be documented here.
 
 ## Unreleased
 
+- Published Collatz Scan as an experimental ARGOS engine with runnable CPU
+  sources, bounded datasets, provenance hashes, and 15 deterministic checks.
+  These checks do not prove the Collatz conjecture.
 - Created the public IAA architecture scaffold.
 - Declared the WHISPER lineage without inheriting unverified claims.
 - Added doctrine, responsibility boundaries, threat model, roadmap, validation

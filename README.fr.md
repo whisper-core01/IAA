@@ -31,6 +31,13 @@ TCP. LoRa est réservé aux messages texte de 100 caractères maximum.
 La définition canonique du Sol se trouve dans
 [`docs/architecture/SOL.md`](docs/architecture/SOL.md).
 
+## Expérience ARGOS publiée
+
+[Collatz Scan](components/argos/engines/collatz/README.md) publie des scripts CPU,
+des résultats compacts et 15 contrôles logiciels déterministes. Il s’agit
+d’expériences numériques finies : **Collatz Scan ne prouve pas la conjecture de
+Collatz.**
+
 ## Règles fondatrices
 
 - la doctrine précède l’implémentation ;
