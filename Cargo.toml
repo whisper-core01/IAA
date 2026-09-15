@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = []
+
+# Crates are admitted only after their contracts and responsibilities are
+# defined and reviewed.
+

@@ -1,0 +1,23 @@
+# Rust
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Build / runtime
+build/
+dist/
+out/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
