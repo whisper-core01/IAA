@@ -34,6 +34,12 @@ class ArgosIntegrationTest(unittest.TestCase):
         launcher.activate()
         self.assertFalse(hasattr(launcher.argos, "_aoratos"))
 
+    def test_iris_activation_is_idempotent(self):
+        launcher = IrisLauncher()
+        launcher.activate()
+        launcher.activate()
+        self.assertEqual(["IRIS", "ARGOS", "AORATOS"], launcher.activation_order)
+
     def test_argos_rejects_contract_mismatch(self):
         envelope = self.scenario()
         envelope["contract"] = "WRONG"

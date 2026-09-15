@@ -27,6 +27,8 @@ class IrisLauncher:
         self.activation_order: list[str] = []
 
     def activate(self) -> None:
+        if self.active:
+            return
         self.active = True
         self.activation_order.append("IRIS")
         self.argos.activate()

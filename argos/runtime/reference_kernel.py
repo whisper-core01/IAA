@@ -27,6 +27,8 @@ class ArgosKernel:
         self.active = False
 
     def activate(self) -> None:
+        if self.active:
+            return
         self.active = True
 
     def _load_component(

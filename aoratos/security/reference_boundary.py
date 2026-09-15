@@ -12,6 +12,8 @@ class AoratosDataSecurity:
         self.active = False
 
     def activate(self) -> None:
+        if self.active:
+            return
         self.active = True
 
     def status(self) -> dict[str, str]:
