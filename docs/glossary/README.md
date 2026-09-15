@@ -8,7 +8,7 @@
 | Contract | Versioned boundary defining allowed interaction and failure. |
 | SOL | Entity initiated by IRIS; its complete semantics will be frozen before implementation. |
 | Fractal representation | Representation computed by IRIS for a SOL; not a security claim by itself. |
-| ARKE | Wasm software layer restricted to supplying directory content through its defined channel. |
+| ARKÉ | Mobile connectivity component for researchers and people already present in the user's phone contacts; connections use Reticulum or TCP together with the SOL. |
 
 Terms are defined once and reused without semantic drift.
 
